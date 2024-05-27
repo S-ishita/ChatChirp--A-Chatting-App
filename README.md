@@ -1,6 +1,6 @@
 # ChatChirp--A-Chatting-App
 
-ChatChirp is a simple yet powerful chatting application developed using Java. It allows users to connect and communicate with each other in real-time through a user-friendly interface. The application is designed with a client-server architecture, ensuring seamless communication between multiple clients.
+ChatChirp is a simple yet powerful chatting application developed using Java. It allows users to connect and communicate with each other in real-time through a user-friendly interface. The application is designed with a client-server architecture, ensuring seamless communication.
 
 ## Features
 
@@ -17,15 +17,15 @@ To get started with ChatChirp, follow these steps:
 
 ### Running the Server
 
-1. Compile the server file: `javac ServerFile.java`
-2. Run the server: `java ServerFile`
+1. Compile the server file: `javac Server.java`
+2. Run the server: `java Server`
 
 The server will start running and waiting for client connections.
 
 ### Running the Client
 
-1. Compile the client file: `javac ClientFile.java`
-2. Run the client: `java ClientFile`
+1. Compile the client file: `javac Client.java`
+2. Run the client: `java Client`
 
 The client application will open, and you can connect to the server by providing the necessary details.
 
