@@ -124,7 +124,7 @@ public class Client  implements ActionListener {
 
         //frame size and location
         f.setSize(450,700);
-        f.setLocation(1100,50);
+        f.setLocation(1000,50);
         f.getContentPane().setBackground(Color.white);
         f.setUndecorated(true);
         // setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -201,7 +201,7 @@ public class Client  implements ActionListener {
             Socket s=new Socket("127.0.0.1",6001);
             DataInputStream din=new DataInputStream(s.getInputStream());
             dout=new DataOutputStream(s.getOutputStream());
-
+            a1.setLayout(new BorderLayout());
             while(true){
                 String msg=din.readUTF();
 
